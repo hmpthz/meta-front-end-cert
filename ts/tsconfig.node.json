@@ -1,0 +1,8 @@
+{
+  "extends": "../tsconfig.base.node.json",
+  "include": ["vite.config.ts"],
+  "compilerOptions": {
+    "composite": true,
+    "types": ["vite/client", "node"]
+  }
+}
