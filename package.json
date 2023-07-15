@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "pnpm run -F course* build",
-    "postbuild": "echo \"postbuild\" && node ./.vscode/postbuild.cjs",
+    "prebuild": "pnpm ls -F \"course*\"",
+    "build": "pnpm run -F \"course*\" build",
+    "postbuild": "node ./.vscode/postbuild.cjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
