@@ -3,6 +3,7 @@
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }],
   "compilerOptions": {
+    "outDir": "./build",
     "composite": true,
     "types": []
   }

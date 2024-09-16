@@ -1,5 +1,8 @@
 {
     "search.useIgnoreFiles": true,
-    "typescript.tsdk": "node_modules\\typescript\\lib",
-    "typescript.preferences.importModuleSpecifier": "shortest"
+    "typescript.tsdk": "final\\node_modules\\typescript\\lib",
+    "typescript.preferences.importModuleSpecifier": "shortest",
+    "files.associations": {
+        "*.css": "tailwindcss"
+    }
 }

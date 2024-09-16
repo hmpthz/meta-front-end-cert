@@ -19,7 +19,10 @@
     // Required in Vite
     "isolatedModules": true,
     // Used when the module **does not** explicitly specify a default export.
+    // Allow `import x from y` instead of `import * as x from y`
     "allowSyntheticDefaultImports": true,
+    // Drop type imports but preserve value imports for possible side effects.
+    "verbatimModuleSyntax": true,
     // Standardize namespace import and default import for CommonJS
     "esModuleInterop": true,
     "jsx": "react-jsx",

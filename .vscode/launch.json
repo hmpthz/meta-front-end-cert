@@ -16,6 +16,14 @@
             "userDataDir": "C:/Workspace/.vscode/chrome-debug-profile"
         },
         {
+            "name": "Browser: Edge",
+            "type": "msedge",
+            "request": "launch",
+            "url": "http://localhost:5173",
+            "webRoot": "${workspaceFolder}",
+            "userDataDir": "C:/Workspace/.vscode/edge-debug-profile"
+        },
+        {
             "name": "Vite: dev-server",
             "type": "node",
             "request": "launch",
